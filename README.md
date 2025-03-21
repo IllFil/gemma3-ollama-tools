@@ -14,7 +14,7 @@ This repository provides the necessary `Modelfile` and instructions for enabling
 ## Supported Gemma Model Sizes & Performance
 - **Gemma3 1B**: Unable to effectively reason and utilize tool calls.
 - **Gemma3 4B**: Struggles with reasoning between tools, suboptimal results.
-- **Gemma3 12B and Gemma3 27B**: Excellent reasoning capabilities with native tool use, similar to popular models like Qwen and Mistral.
+- **Gemma3 12B and Gemma3 27B**: Excellent reasoning capabilities with native tool use.
 
 ## Quick Start Guide
 
