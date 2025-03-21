@@ -1,6 +1,15 @@
 # Gemma3 Ollama Tools
 
+![GitHub Repo stars](https://img.shields.io/github/stars/IllFil/gemma3-ollama-tools?style=social)
+![Last Commit](https://img.shields.io/github/last-commit/IllFil/gemma3-ollama-tools)
+
 This repository provides the necessary `Modelfile` and instructions for enabling native Ollama tool support with Gemma models. Ollama's native tool support allows language models like Gemma to interact with external functions and APIs directly.
+
+✅ Features
+- Native Ollama tool support for Gemma models
+- Reasoning benchmarks across different model sizes
+- Quick setup with ready-to-use Modelfile
+- Examples included for easy testing
 
 ## Supported Gemma Model Sizes & Performance
 - **Gemma3 1B**: Unable to effectively reason and utilize tool calls.
@@ -76,6 +85,7 @@ Below is a practical example showing how Gemma3-12B utilizes tool calling capabi
 ```
 
 Gemma seamlessly identifies the need for external information and correctly invokes Ollama's native tools.
+
 
 ## Notes
 
