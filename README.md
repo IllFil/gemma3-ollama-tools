@@ -37,7 +37,7 @@ ollama create gemma3-12b-tools -f ./Modelfile
 
 This command builds a custom Gemma model (`gemma3-12b-tools`) with native Ollama tool support integrated.
 
-Replace `gemma3-12b-tools` with your desired model name. The provided `Modelfile` is ready-to-use and already configured for enabling tools.
+Replace `gemma3-12b-tools` with your desired model name. The provided `Modelfile` is ready-to-use and already configured for enabling tools.Dont forget to change FROM path to desired model(e.g. gemma3:4b, gemma3:12b etc.)
 
 ### Step 3: Run your Custom Model
 
